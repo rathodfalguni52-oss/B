@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: bookbridge
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_EMAIL
+        value: admin@bookbridge.com
+      - key: ADMIN_PASSWORD
+        value: Admin@123

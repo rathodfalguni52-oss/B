@@ -1,0 +1,12 @@
+{
+  "name": "bookbridge",
+  "version": "1.0.0",
+  "description": "BookBridge - Student Book Exchange (frontend + backend, zero external dependencies)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": { "node": ">=22.13.0" },
+  "license": "MIT"
+}
